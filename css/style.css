@@ -1,0 +1,30 @@
+h1 {
+    text-align: center;
+    color:rgb(227, 14, 96)
+}
+
+h2{
+    text-align: center;
+}
+
+.button1{
+    font-size:100px;
+    background-color: rgb(219, 16, 134);
+    color:rgb(255, 127, 232)
+}
+
+.button2 {
+    font-size: 100px;
+    background-color: rgb(212, 89, 161);
+    color: rgb(255, 127, 232)
+}
+
+.button3 {
+    font-size: 100px;
+    background-color: rgb(241, 145, 201);
+    color: rgb(58, 5, 49)
+}
+
+body {
+    background-color: rgb(255, 210, 244);
+}
