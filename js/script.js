@@ -1,5 +1,5 @@
 function pinkclickFunction() {
-    document.body.style.backgroundColor = rgb(255, 156, 214);
+    document.body.style.backgroundColor = "red";"
 }
 
 function blueclickFunction() {
