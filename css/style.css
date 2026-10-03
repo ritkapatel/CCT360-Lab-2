@@ -9,20 +9,20 @@ h2{
 
 .button1{
     font-size:100px;
-    background-color: rgb(219, 16, 134);
-    color:rgb(255, 127, 232)
+    background-color: rgb(255, 156, 214);
+    color:rgb(0, 0, 0)
 }
 
 .button2 {
     font-size: 100px;
-    background-color: rgb(212, 89, 161);
-    color: rgb(255, 127, 232)
+    background-color: rgb(112, 192, 241);
+    color: rgb(0, 0, 0)
 }
 
 .button3 {
     font-size: 100px;
-    background-color: rgb(241, 145, 201);
-    color: rgb(58, 5, 49)
+    background-color: rgb(222, 255, 176);
+    color: rgb(0, 0, 0)
 }
 
 body {
