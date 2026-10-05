@@ -1,30 +1,123 @@
+/* Custom, imported fonts */
+/* font1 */
+@font-face {
+    font-family: "font1";
+    src: url("fonts/font1.ttf");
+}
+
+/* font2 */
+@font-face {
+    font-family: "font2";
+    src: url("fonts/font2.ttf");
+}
+
+/* font3 */
+@font-face {
+    font-family: "font3";
+    src: url("fonts/font3.ttf");
+}
+
+/* change h1 styles */
 h1 {
+    text-shadow: 2px 2px 4px rgb(90, 62, 18);
+    font-family: "font2";
+    padding: 50px;
+    font-size: 60px;
     text-align: center;
-    color:rgb(227, 14, 96)
-}
-
-h2{
-    text-align: center;
-}
-
-.button1{
-    font-size:100px;
-    background-color: rgb(255, 156, 214);
     color:rgb(0, 0, 0)
 }
 
-.button2 {
-    font-size: 100px;
+/* change h2 styles */
+h2{
+    text-align: center;
+    font-size: 40px;
+    font-family: "font2";
+    background-color: rgb(230, 207, 255);
+    padding: 40px;
+    border-radius: 16px;
+    backdrop-filter: blur(6px);
+    max-width: 850px;
+    margin: 0 auto;
+    text-shadow: 2px 2px 4px rgb(202, 95, 255);
+}
+
+/* change header styles */
+#header {
+    width: 100%;
+    height: auto;
+    background-color: rgb(255, 249, 179);
+}
+
+/* change button styles */
+.button {
+    padding: 30px;
+    display:flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+/* change button styles */
+button {
+    background-color: rgb(209, 255, 238);
+    transition-duration: 0.4s;
+    cursor: pointer;
+    font-size: 60px;
+    font-family: "font3";
+    box-shadow: 2px 2px 4px rgb(202, 95, 255);
+    border-radius: 8px;
+    color: rgb(0, 0, 0)
+    
+}
+
+/* add hover styles for button1, 2 and 3*/
+#button1:hover, #button2:hover, #button3:hover {
+    color: white;
+}
+
+/* add hover style for button 1 */
+#button1:hover{
+    background-color: rgb(255, 156, 214);
+
+}
+
+/* add hover style for button 2 */
+#button2:hover {
     background-color: rgb(112, 192, 241);
-    color: rgb(0, 0, 0)
+
 }
 
-.button3 {
-    font-size: 100px;
+/* add hover style for button 3 */
+#button3:hover {
     background-color: rgb(222, 255, 176);
-    color: rgb(0, 0, 0)
 }
 
-body {
-    background-color: rgb(255, 210, 244);
+/* add hover styles for buttonstyle1 and buttonstyle2, become smaller */
+.buttonstyle1:hover, .buttonstyle2:hover {
+    font-size: 40px;
+}
+
+/* add hover style for buttonstyle1 */
+.buttonstyle1:hover{
+    background-color: rgb(253, 255, 193);
+}
+
+/* add hover style for buttonstyle2 */
+.buttonstyle2:hover{
+    background-color: rgb(228, 188, 255);
+}
+
+/* Image styles */
+img {
+    display: block;
+    margin: 0 auto;
+    max-width: 100%;
+    height: auto;
+    border-radius: 16px;
+    width: 300px;
+    padding-bottom: 20px;
+}
+
+/* change background color */
+body{
+    background-color: rgb(255, 253, 230);
 }

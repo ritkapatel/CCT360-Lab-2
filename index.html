@@ -3,20 +3,73 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Customize Your Webpage!</title>
+    <title>Customize Your Order!</title>
     <link rel="stylesheet" href="css/style.css">
-    <script src="js/script.js"></script>
 
 </head>
 <body>
-<h1>Customize Your Webpage!</h1>
-<h2>Click any of the buttons below to change the background color!</h2>
 
-<button class = "button1" onclick="pinkclickFunction()"> Click me</button>
-<button class = "button2" onclick="blueclickFunction()"> Click me</button>
-<button class = "button3" onclick="greenclickFunction()"> Click me</button>
+    <!-- header -->
+    <div id="header">
+        <h1>Customize Your Order!</h1>
+    </div>
 
+    <h2>First, Let's change the background color!</h2>
 
-    
+    <!-- Buttons for choosing backgroound -->
+    <div class = "button">
+
+        <button id = "button1" onclick="pinkclickFunction()"> Pink</button>
+        <button id = "button2" onclick="blueclickFunction()"> Blue</button>
+        <button id = "button3" onclick="greenclickFunction()"> Green</button>
+
+    </div>
+
+    <!-- Buttons for choosing drink -->
+    <h2>Next, choose your preferred drink!</h2>
+    <div class = "button">
+        <button class = "buttonstyle1" id="button4" onclick="drinkFunction('Juice')"> Juice</button>
+        <button class = "buttonstyle1" id="button5" onclick="drinkFunction('Water')"> Water</button>
+        <button class = "buttonstyle1" id="button6" onclick="drinkFunction('Coffee')"> Coffee</button>
+        <button class = "buttonstyle1" id="button7" onclick="drinkFunction('Soda')"> Soda</button>
+    </div>
+
+    <!-- Image for drinks -->
+    <img id="drinks" src="images/drink.jpg" alt="Drinks Image">
+
+    <!-- Buttons for choosing food -->
+    <h2>Now, What would you like to eat?</h2>
+    <div class = "button">
+        <button class = "buttonstyle1" id="button8" onclick="foodFunction('Pizza')"> Pizza</button>
+        <button class = "buttonstyle1" id="button9" onclick="foodFunction('Burger')"> Burger</button>
+        <button class = "buttonstyle1" id="button10" onclick="foodFunction('Salad')"> Salad</button>
+        <button class = "buttonstyle1" id="button11" onclick="foodFunction('Pasta')"> Pasta</button>
+    </div>
+
+    <!-- Image for foods -->
+    <img id="foods" src="images/food.png" alt="Foods Image">
+
+    <!-- Buttons for choosing desserts -->
+    <h2>Lastly, what dessert would you like?</h2>
+    <div class = "button">
+        <button class = "buttonstyle1" id="button12" onclick="dessertFunction('Ice Cream')"> Ice Cream</button>
+        <button class = "buttonstyle1" id="button13" onclick="dessertFunction('Cake')"> Cake</button>
+        <button class = "buttonstyle1" id="button14" onclick="dessertFunction('Brownie')"> Brownie</button>
+        <button class = "buttonstyle1" id="button15" onclick="dessertFunction('Cookies')"> Cookies</button>
+    </div>
+
+    <!-- Image for desserts -->
+    <img id="desserts" src="images/dessert.jpg" alt="Desserts Image">
+
+    <!-- Buttons for placing order -->
+    <h2>Click the button to place your order!</h2>
+
+    <div class = "button">
+        <button class = "buttonstyle2" id="button16" onclick="orderFunction()"> Place your order here</button>
+        <button class = "buttonstyle2" id="button17" onclick="resetFunction()"> Reset your order</button>
+    </div>
+
+    <!-- Connecting javascript -->
+    <script src="js/script.js"></script>
 </body>
 </html>
